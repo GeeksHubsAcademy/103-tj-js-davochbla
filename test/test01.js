@@ -5,11 +5,11 @@ function tiers(index) {
 
 	for(let i = 1; i <= index; i++){
 		for(let x = 1; x <= (index - i); x++){
-			line += " ";
+			linea += " ";
 		}
 
 		for(let z = 1; z <= i; z++){
-			line += "*";
+			linea += "*";
 		}
 
 		dibujo += linea;
