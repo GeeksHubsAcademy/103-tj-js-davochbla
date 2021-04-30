@@ -14,6 +14,7 @@ function tiers(index) {
 
 		dibujo += linea;
 		dibujo += "\n";
+		linea = "";
 	}
 
 	return dibujo;
